@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VUTTR.Backend", "VUTTR.Backend.csproj", "{31286042-6C0E-4F14-B767-1CFA925C8064}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{426C2977-26DE-4568-8EC4-F3D44F1DA097}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\misc\postgres-docker-compose.yml = ..\..\misc\postgres-docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31286042-6C0E-4F14-B767-1CFA925C8064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31286042-6C0E-4F14-B767-1CFA925C8064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31286042-6C0E-4F14-B767-1CFA925C8064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31286042-6C0E-4F14-B767-1CFA925C8064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6083B0F4-5268-4618-90F9-0EFC10E4E5DC}
+	EndGlobalSection
+EndGlobal
